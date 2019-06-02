@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android Remote</string>
+    <string name="address_settings">Enter address manually</string>
+    <string name="address_settings_hint">IP address or URL</string>
+    <string name="addresses_not_found">Addresses not found, please enter one manually or refresh</string>
+    <string name="files_not_found">Files not found, please refresh</string>
+    <string name="about_settings">About</string>
+    <string name="not_connected">You are not connected to a network</string>
+    <string name="loading_error">Error loading data</string>
+    <string name="unknown_error">An error has occurred, please try again</string>
+    <string name="player_shutdown">Shutdown player</string>
+    <string name="player_quit">Quit player</string>
+    <string name="refresh_settings">Refresh</string>
+    <string name="project_url">https://github.com/ruial/AndroidRemote</string>
+</resources>

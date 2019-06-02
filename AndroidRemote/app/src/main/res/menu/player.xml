@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/refresh_settings"
+            android:title="@string/refresh_settings"/>
+
+    <item
+            android:id="@+id/player_quit"
+            android:title="@string/player_quit"/>
+
+    <item
+            android:id="@+id/player_shutdown"
+            android:title="@string/player_shutdown"/>
+
+</menu>

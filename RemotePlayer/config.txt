@@ -1,0 +1,3 @@
+video_player=OMXPlayer
+videos_directory=/home/pi/videos
+server_name=raspberry pi

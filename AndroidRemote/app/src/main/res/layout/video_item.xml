@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:minHeight="@dimen/min_list_item_height"
+        android:padding="@dimen/margin"
+        android:background="?android:selectableItemBackground"
+        android:clickable="true"
+        tools:context="com.briefbytes.androidremote.player.PlayerActivity">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:id="@+id/file_path"
+                android:padding="8dp"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/file_size"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceSmall"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/play_file"
+                android:src="@drawable/ic_play_arrow_black_36dp"/>
+
+        <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/pause_video"
+                android:src="@drawable/ic_pause_black_36dp"/>
+
+        <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/toggle_subtitles"
+                android:src="@drawable/ic_subtitles_black_36dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
